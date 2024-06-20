@@ -1,3 +1,15 @@
+// Function to detect if the user is on a mobile device
+function isMobileDevice() {
+    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+}
+
+// Example usage
+if (isMobileDevice()) {
+    alert("Hello, the mobile version of this website is currently under development, please use a desktop device or switch to desktop view in your browser settings to properly view the website.");
+} else {
+    console.log("User is not using a mobile device");
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     const germanFlag = document.getElementById("german-flag");
     const dutchFlag = document.getElementById("dutch-flag");
