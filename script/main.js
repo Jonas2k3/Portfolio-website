@@ -44,7 +44,6 @@ function translateToGerman() {
     document.getElementById("projects-text-index").innerHTML = "Projekte";
     document.getElementById("intro-text").innerHTML = "Mein Name ist Jonas Koens, ich bin ein 21-jähriger Software engineering Student an der Fontys University of Applied Sciences. Ich bin ein begeisterter Problemlöser, daher begeistert mich jede komplexe Programmieraufgabe. <br> <br> <a href='/pages/about.html' id='about-page-link'>Mehr über mich <img src='/images/scroll-btn.svg' id='rotated-scroll-btn'></a>";
     document.getElementById("project-text-header-index").innerHTML = "Projekte";
-    console.log(test);
 }
 
 function translateToDutch() {
