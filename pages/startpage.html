@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/style/startpage.css">
+  <title>Jonas Koens - Startpage</title>
+</head>
+
+<body>
+
+  <aside id="aside">
+    <div class="sidebarElement">
+      <div class="sidebarCircle" id="temperatureCircle">
+        <p id="temperatureMax"></p>
+        <hr id="temperatureLine">
+        <p id="temperatureMin"></p>
+      </div>
+
+      <p id="temperatureDesc">Temperature</p>
+    </div>
+
+    <div class="sidebarElement">
+      <div class="sidebarCircle" id="rainCircle">
+        <p id="precipitationProbability"></p>
+      </div>
+      <p id="precipitationDesc">Precipitation</p>
+    </div>
+
+    <div class="sidebarElement">
+      <div class="sidebarCircle" id="pollenCircle">
+        <p id="pollen"></p>
+      </div>
+      <p id="pollenDesc">Pollen</p>
+    </div>
+
+    <div class="sidebarElement">
+      <div class="sidebarCircle" id="UVIndexCircle">
+        <p id="UVIndex"></p>
+      </div>
+      <p id="UVIndexDesc">UV Index</p>
+    </div>
+
+    <div class="sidebarElement">
+      <div class="sidebarCircle" id="sunImage">
+        <p id="sun"></p>
+      </div>
+      <p id="sunDesc">Sun</p>
+    </div>
+
+    <div class="sidebarElement">
+      <div class="sidebarCircle" id="moonImage"></div>
+      <p id="moonDesc">Moon</p>
+
+    </div>
+  </aside>
+
+
+  <section id="main">
+    <div id="headingText">
+      <h1 id="greetingText">Welcome!</h1>
+    </div>
+
+    <script async src="https://cse.google.com/cse.js?cx=745832ab6be7249cc">
+    </script>
+    <div class="gcse-searchbox-only" id="searchbar"></div>
+
+    <div id="shortcutsDiv">
+      <a href="https://youtube.com"><div id="youtubeImage" class="sidebarCircle"></div></a>
+      <a href="https://canvas.fontys.nl/"><div id="canvasImage" class="sidebarCircle"></div></a>
+      <a href="https://nebula.tv/"><div id="nebulaImage" class="sidebarCircle"></div></a>
+      <a href="https://chat.mistral.ai/chat"><div id="chatImage" class="sidebarCircle"></div></a>
+      <a href="https://github.com/"><div id="githubImage" class="sidebarCircle"></div></a>
+      <a href="https://calendar.proton.me/"><div id="calendarImage" class="sidebarCircle"></div></a>
+      <a href="https://tasks.google.com/"><div id="tasksImage" class="sidebarCircle"></div></a>
+    </div>
+
+    <!-- space image -->
+    <div id="spaceImageContainer">
+      <p id="spaceImageTitle"></p>
+      <img src="" alt="" id="spaceImage">
+
+    </div>
+
+  </section>
+
+  <section id="right-side">
+    <div id="wikipediaBox">
+      <iframe id="wikipedia-iframe" src="" frameborder="0">
+      </iframe>
+    </div>
+
+    <div id="nosBox">
+      <p id="nosArticles"></p>
+    </div>
+
+  </section>
+
+  <script src="/script/startpage.js"></script>
+</body>
+
+</html>
