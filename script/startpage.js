@@ -102,7 +102,7 @@ async function fetchRandomWikipediaArticle() {
 
         
 
-        resultElem.src = `https://en.wikipedia.org/wiki/${urlTitle}?action=render`;
+        resultElem.src = `https://en.wikipedia.org/wiki/${urlTitle}`;
     } catch (error) {
         resultElem.textContent = 'Failed to fetch article.';
         console.error(error);

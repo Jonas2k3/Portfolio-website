@@ -5,7 +5,8 @@ body {
     padding: 20px;
     gap: 10px;
     font-family: Inter, sans-serif;
-    background-color: #ededed;
+    background-color: black;
+    color: #ffffff;
 }
 
 #aside {
@@ -53,9 +54,9 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 90px;
-    border: 3px solid #000;
-    background: #9C9C9C;
-    color: #fff
+    margin: 3px;
+    color: #fff;
+    background-size: cover;
 }
 
 #headingText {
@@ -94,8 +95,6 @@ body {
     align-self: stretch;
     max-width: 100%;
     overflow: hidden;
-    border: 3px solid black;
-    border-radius: 10px;
 }
 
 #wikipediaBox {
@@ -105,8 +104,6 @@ body {
     gap: 10px;
     align-self: stretch;
     overflow: hidden;
-    border: 3px solid black;
-    border-radius: 10px;
 }
 
 
@@ -124,24 +121,10 @@ body {
     width: 50%
 }
 
-.sidebarCircle {
-    background-size: cover;
-}
-
 .gsc-input input {
     width: 800px !important;
     padding: 10px !important;
     box-sizing: border-box;
-}
-
-#wikipedia-iframe{
-    font-family: Inter, sans-serif;
-}
-
-#spaceImageContainer{
-    border: 3px solid black;
-    padding: 10px;
-    border-radius: 10px;
 }
 
 #shortcutsDiv{
@@ -153,4 +136,8 @@ body {
     align-self: stretch;
     justify-content: center;
     margin-bottom: 15px;
+}
+
+a:visited, a:hover, a, a:active{
+    color: white;
 }
